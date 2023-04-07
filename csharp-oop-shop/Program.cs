@@ -49,15 +49,9 @@ namespace csharp_oop_shop
           9.99,
           10);
 
-            foreach (Product p in shop) { p.TellMeAll(); }
-
-
-
-
-
-
-
-
+            foreach (Product p in shop) {
+                Console.WriteLine("................................");
+                p.TellMeAll(); }
         }
     }
 }
